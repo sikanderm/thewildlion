@@ -1,0 +1,155 @@
+
+.App {
+  text-align: center;
+}
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.img-A{
+  width: 325px;
+  margin: 15px;
+}
+.home-center{
+  margin-left: 10%;
+  width: 80%;
+  border-bottom: 1px solid lightgray;
+}
+.home-center-intro{
+  display: flex;
+  height: 225px;
+}
+.home-center-intro p{
+  margin-top: 55px;
+  margin-left: 50px;
+}
+button{
+  width: 20%;
+  border: lightgray;
+  margin-left: 500px;
+  text-decoration: none;
+}
+.but-div{
+  margin-left: 45%;
+}
+.img-box{
+  width: 500px;
+}
+.carousel{
+  display: flex;
+  list-style-type: none;
+  min-width: 100%;
+  height: 300px;
+  align-items: center;
+  overflow: hidden;
+  
+}
+.slide{
+  height: 300px;
+  min-width: 100%;
+  transition: .5s;
+  padding-left: 5%; 
+}
+.left{
+  position: absolute;
+  left: 0;
+  margin-left: 0px;
+  width: 74px;
+  height: 300px;
+  
+}
+.right{
+  position: absolute;
+  right: 0;
+  width: 62px;
+  height: 300px;
+}
+.heading{
+  height: 100px;
+  border-bottom: 1px solid lightgray;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.heading p{
+  font: 1em sans-serif;
+  font-size: 40px;
+  padding-top: 25px;
+  text-align: center;
+  font-style: italic;
+
+}
+.banner img{
+  max-width: 100%;
+  height: 300px;
+}
+.content{
+  margin-top: 25px;
+  width: 60%;
+  margin-left: 20%;
+  margin-bottom: 25px;
+}
+.cap-imga{
+  
+  height: 350px;
+  margin-left: 30%;
+}
+.cap{
+  margin-top:0px;
+  margin-left: 30%;
+  border-bottom: 1px solid lightgray;
+  margin-right: 35%;
+  height: 25px;
+ 
+}
+.abo{
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 50px;
+  border-bottom: 1px solid lightgray;
+}
+.abo-sec{
+  height: 300px;
+}
+.con{
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 50px;
+  border-bottom: 1px solid lightgray;
+}
+.con-sec{
+  height: 300px;
+}
+.next, .prev{
+  width: 50px;
+  height: 25px;
+  color: #0000EE;
+}
+.sc-div{
+  margin-left: calc(50% - 50px);
+  margin-top: 2px;
+}
